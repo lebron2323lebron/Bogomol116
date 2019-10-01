@@ -1,0 +1,12 @@
+a=0.93;
+b=5.61;
+c=0.31;
+x=-2.5;
+k=2;
+y=(log(abs(k*x))/sin(7))-sqrt(abs(x-a^2))-((a*10^4-b)/cos(k*x))+((x-a^2)^0.33)+x*c^3;
+h=[a b c x k y];
+t=max(h);
+h(find(t))=find(t);
+r=min(h);
+h(find(r))=find(r);
+sort(h)
